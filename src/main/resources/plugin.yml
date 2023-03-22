@@ -1,0 +1,12 @@
+name: MarketPlugin
+version: '${project.version}'
+main: me.szwagru.market.TradeMarket
+api-version: 1.19
+authors: [ SzwagruAI ]
+description: Plugin na market
+website: szesciennaruina.pl
+commands:
+  trademarket:
+    aliases: trm
+    usage:
+    tab-complete: true
